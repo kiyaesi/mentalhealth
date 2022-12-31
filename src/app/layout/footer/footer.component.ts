@@ -17,6 +17,7 @@ export class FooterComponent {
 
   };
   submitform(e : any){
+    console.log(e)
     this.formData.email= e.value.email;
      this.formData.subject= e.value.subject;
      this.formData.desc= e.value.description;
